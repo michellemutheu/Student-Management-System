@@ -62,6 +62,18 @@ student_management_system/
 
 ## Getting Started
 
+### Create virtual environment
+
+```bash
+python -m venv venv
+```
+
+### Activate virtual environment
+
+```bash
+.\venv\Scripts\activate
+```
+
 ### Install dependencies
 
 ```bash
