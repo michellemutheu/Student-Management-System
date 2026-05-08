@@ -62,10 +62,22 @@ student_management_system/
 
 ## Getting Started
 
+### Create virtual environment
+
+```bash
+python -m venv venv
+```
+
+### Activate virtual environment
+
+```bash
+.\venv\Scripts\activate
+```
+
 ### Install dependencies
 
 ```bash
-pip install fastapi sqlalchemy passlib[bcrypt] python-jose uvicorn
+pip install -r requirements.txt
 ```
 
 ### Run the API
